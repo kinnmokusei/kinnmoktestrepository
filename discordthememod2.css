@@ -548,7 +548,7 @@ html.theme-light .container_b2ca13 {
   border-color: rgb(var(--accent));
   box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), 0.25);
 }
-#app-mount .popout-1KHNAq {
+#app-mount .-1KHNAq {
   border: 1px solid var(--border);
   border-radius: 0 0 6px 6px;
   background: var(--bg-primary);
@@ -3352,95 +3352,6 @@ body .footer_d8e2d0,
   to {
     opacity: 0;
   }
-}
-#app-mount .userPopoutOuter_c69a7b {
-  border-radius: 0;
-  border: 1px solid var(--border);
-  -webkit-backdrop-filter: blur(var(--blur));
-          backdrop-filter: blur(var(--blur));
-  box-shadow: none;
-  background: transparent;
-  padding: 0;
-}
-#app-mount .userPopoutOuter_c69a7b .banner-2boKnS {
-  border-radius: 0;
-}
-#app-mount .userPopoutOuter_c69a7b .avatarPositionPremiumNoBanner_f89da9 {
-  top: 42px;
-  left: 18px;
-}
-#app-mount .userPopoutOuter_c69a7b .avatarPositionPremiumBanner_f89da9 {
-  top: 72px;
-  left: 18px;
-}
-#app-mount .userPopoutOuter_c69a7b .scroller_d2b491 {
-  padding: 0 16px !important;
-}
-#app-mount .userPopoutOuter_c69a7b .input-2g-os5 {
-  background: var(--user-popout-bg) !important;
-}
-#app-mount .userPopoutOuter_c69a7b .input-2g-os5::-moz-placeholder {
-  color: var(--user-popout-text);
-}
-#app-mount .userPopoutOuter_c69a7b .input-2g-os5::placeholder {
-  color: var(--user-popout-text);
-}
-#app-mount .userPopoutOuter_c69a7b .roles_fa2f72 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-#app-mount .userPopoutOuter_c69a7b .role_f9575e {
-  margin: 0;
-  border: none;
-  height: auto;
-  padding: 6px 8px;
-  display: flex;
-  background: transparent;
-  position: relative;
-  overflow: hidden;
-}
-#app-mount .userPopoutOuter_c69a7b .roleRemoveButton_f9575e {
-  position: absolute;
-  inset: 0;
-}
-#app-mount .userPopoutOuter_c69a7b .roleRemoveButton_f9575e[aria-hidden=false]:hover .roleCircle_a26d7b {
-  opacity: 1;
-}
-#app-mount .userPopoutOuter_c69a7b .roleRemoveButton_f9575e[aria-hidden=false]:hover ~ .roleName_e4010c {
-  opacity: 0;
-  pointer-events: none;
-}
-#app-mount .userPopoutOuter_c69a7b .roleCircle_a26d7b {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 0;
-  z-index: -1;
-  filter: none;
-  opacity: 0.35;
-}
-#app-mount .userPopoutOuter_c69a7b .roleName_e4010c {
-  margin: 0;
-  color: #fff;
-}
-#app-mount .userPopoutOuter_c69a7b .roleName_e4010c .roleNameOverflow_e4010c {
-  color: inherit;
-}
-#app-mount .userPopoutInner_c69a7b {
-  border-radius: 0;
-  background: transparent;
-}
-#app-mount .userPopoutInner_c69a7b::before {
-  content: none;
-}
-#app-mount .userPopoutOverlayBackground_c69a7b {
-  margin: 0;
-  padding-top: 16px;
-  background: transparent;
 }
 #app-mount .messageInputContainer_f2c0a8 {
   border: none;
