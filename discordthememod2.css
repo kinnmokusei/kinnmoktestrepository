@@ -2559,25 +2559,6 @@ body .footer_d8e2d0,
   border-top: 1px solid var(--border);
 }
 
-#app-mount .accountProfilePopoutWrapper_b2ca13 {
-  left: 0;
-}
-#app-mount .accountProfilePopoutWrapper_b2ca13::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  -webkit-backdrop-filter: blur(var(--blur));
-          backdrop-filter: blur(var(--blur));
-}
-#app-mount .accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b {
-  background: var(--bg-primary);
-  -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-}
-#app-mount .accountProfilePopoutWrapper_b2ca13 .menu_d90b3d {
-  max-width: unset;
-}
 #app-mount .statusItem_ad5fac {
   padding: 0;
 }
@@ -3039,12 +3020,6 @@ body .footer_d8e2d0,
   width: 95%;
   margin-bottom: 0px;
 }
-
-#app-mount .layer_d4b6c5 [aria-label=USER_SETTINGS] .accountProfileCard_b69b77 {
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 6px;
-}
 #app-mount .layer_d4b6c5 [aria-label=USER_SETTINGS] .background_b69b77 {
   margin: 16px 0 0 0;
   padding: 16px;
@@ -3454,20 +3429,6 @@ body .footer_d8e2d0,
 }
 #app-mount .userPopoutOuter_c69a7b .roleName_e4010c .roleNameOverflow_e4010c {
   color: inherit;
-}
-#app-mount .userPopoutOuter_c69a7b[style*="--profile-gradient-primary-color"] .input_f8bc55:focus-within {
-  border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
-  box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
-}
-#app-mount .userPopoutOuter_c69a7b.theme-light {
-  --profile-body-divider-color: var(--border) !important;
-  --profile-body-background-color: var(--fg-secondary) !important;
-  --header-primary: #fff !important;
-  --header-secondary: #aaa !important;
-  --text-normal: var(--primary-dark-200) !important;
-  --profile-role-pill-border-color: transparent !important;
-  --profile-role-pill-background-color: var(--fg-secondary) !important;
-  --input-background: hsl(0 0% 7% / 0.7) !important;
 }
 #app-mount .userPopoutInner_c69a7b {
   border-radius: 0;
